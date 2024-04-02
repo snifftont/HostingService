@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+
+        .auto-style1 {
+            width: 600px;
+        }
+        .auto-style2 {
+            width: 241px;
+        }
+        .auto-style3 {
+            width: 338px;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <div>
+    <p>Dear Administrator,</p>
+        <p>Sale has been made through $$companyname$$ website</p>
+    
+    <p>Your order details are mentioned below:</p>
+
+    <table class="auto-style1" style="border: 1px solid #C0C0C0; font-family: ebrima;">
+        <caption style="background-color: #C0C0C0; font-family: ebrima;" >Transaction Successfull!!</caption>
+        <tr>
+            <td class="auto-style2"><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Order ID :</span></td>
+            <td class="auto-style3">
+                          $$odridvalue$$
+                      </td>
+        </tr>
+        <tr>
+            <td class="auto-style2"><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Payment Transaction ID:</span></td>
+            <td class="auto-style3">$$transidvalue$$</td>
+        </tr>
+        <tr>
+            <td class="auto-style2"><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Date of Purchase :</span></td>
+            <td class="auto-style3">$$datetime$$</td>
+        </tr>
+        <tr>
+            <td class="auto-style2"><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Order Amount :</span></td>
+            <td class="auto-style3">$$amountvalue$$ Only</td>
+        </tr>
+        <tr>
+            <td class="auto-style2">Product Name:</td>
+            <td class="auto-style3">$$prod$$</td>
+        </tr>
+        </table>
+        <br />
+        <span style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">
+        <br />
+        <br />
+        <br />
+            </span><hr/>
+        $$comp$$ HelpDesk<br />
+        <br />
+        <br />
+        
+    </div>
+    
+
+    </form>
+    
+
+</body>
+</html>
